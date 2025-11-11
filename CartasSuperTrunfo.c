@@ -6,10 +6,88 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-
+    char estado1, estado2;
+    char codigo1[4], codigo2[4];
+    char cidade1[50], cidade2[50];
+    int populacao1, populacao2;
+    float area1, area2;
+    float pib1, pib2;
+    int turismo1, turismo2;
   // Área para entrada de dados
+    printf("|+=+| BEM VINDO AO SUPER TRUNFO |+=+|\n");
+    printf("Prepare-se para montar as suas cartas.\n\n");
+
+    printf("PRIMEIRO VAMOS MONTAR A CARTA 01\n\n");
+
+    //COLETANDO DADOS DO ESTADO1
+    printf("Digite apenas a primeira letra do Estado Desejado: \n");
+    scanf("%c", &estado1);
+
+    //COLETANDO DADOS DO CODIGO1
+    printf("Digite o código da sua carta sendo ele de 01 a 04, informando a letra do seu Estado antes do código.\nExemplo: A02, D01.\n");
+    scanf("%s", &codigo1);
+    
+    //COLETANDO DADOS DA CIDADE1
+    printf("Digite o nome da Cidade que deseja (Sem Espaços): \n");
+    scanf("%s", &cidade1);
+
+    //COLETANDO DADOS DE NUMERO DE HABITANTES1
+    printf("Informe o numero de hábitantes da cidade: \n");
+    scanf("%d", &populacao1);
+
+    //COLETANDO DADOS DE KM²1
+    printf("Informe a Área (em km²): \n");
+    scanf("%f", &area1);
+
+    //COLETANDO DADOS DO PIB1
+    printf("Informe o PIB da cidade: \n");
+    scanf("%f", &pib1);
+
+    //COLETANDO DADOS DE PONTOS TURISTICOS1
+    printf("Quantos pontos túriscos essa cidade possui? ");
+    scanf("%d", &turismo1);
+
+    // DADOS DA CARTA 1 COLETADOS COM SUCESSO
+    printf("\nPERFEITO, SUA CARTA 01 ESTÁ PRONTA!\n\nAGORA VAMOS CRIAR A SUA CARTA 02\n\n");
+
+    // COLETANDO DADOS DA CARTA 2
+
+    //COLETANDO DADOS DO ESTADO2
+    printf("Digite apenas a primeira letra do Estado Desejado: \n");
+    scanf(" %c", &estado2);
+
+    //COLETANDO DADOS DO CODIGO2
+    printf("Digite o código da sua carta sendo ele de 01 a 04, informando a letra do seu Estado antes do código.\nExemplo: A02, D01. \n");
+    scanf("%s", &codigo2);
+    
+    //COLETANDO DADOS DA CIDADE2
+    printf("Digite o nome da Cidade que deseja (Sem Espaços): \n");
+    scanf("%s", &cidade2);
+
+    //COLETANDO DADOS DE NUMERO DE HABITANTES2
+    printf("Informe o numero de hábitantes da cidade: ");
+    scanf("%d", &populacao2);
+
+    //COLETANDO DADOS DE KM²2
+    printf("Informe a Área (em km²): \n");
+    scanf("%f", &area2);
+
+    //COLETANDO DADOS DO PIB2
+    printf("Informe o PIB da cidade: \n");
+    scanf("%f", &pib2);
+
+    //COLETANDO DADOS DE PONTOS TURISTICOS2
+    printf("Quantos pontos túriscos essa cidade possui? \n");
+    scanf("%d", &turismo2);
 
   // Área para exibição dos dados da cidade
+    printf("PERFEITO!!!\n, ESSAS SÃO AS INFORMAÇÕES DAS SUAS CARTAS!\n\n");
+    printf("CARTA 01\n");
+    printf("Estado: %c\nCódigo da Carta: %s\nCidade: %s\nPopulação: %d\nÁrea (em km²): %f KM²\nPIB: %.2f\nPontos Turisticos: %d\n\n", estado1, codigo1, cidade1, populacao1, area1, pib1, turismo1);
+
+    printf("CARTA 02\n");
+    printf("Estado: %c\nCódigo da Carta: %s\nCidade: %s\nPopulação: %d\nÁrea (em km²): %f KM²\nPIB: %.2f\nPontos Turisticos: %d\n\n", estado2, codigo2, cidade2, populacao2, area2, pib2, turismo2);
 
 return 0;
+
 } 
