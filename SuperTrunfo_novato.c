@@ -13,10 +13,6 @@ int main() {
     float area1, area2;
     float pib1, pib2;
     int turismo1, turismo2;
-    float densidade_populacao1 = (float) populacao1 / area1;
-    float densidade_populacao2 = (float) populacao1 / area2;
-    float pib_capita1 = (float) pib1 / populacao1;
-    float pib_capita2 = (float) pib2 / populacao2;
 
 
   // Área para entrada de dados
@@ -89,10 +85,10 @@ int main() {
   // Área para exibição dos dados da cidade
     printf("PERFEITO!!!\n, ESSAS SÃO AS INFORMAÇÕES DAS SUAS CARTAS!\n\n");
     printf("CARTA 01\n");
-    printf("Estado: %c\nCódigo da Carta: %s\nCidade: %s\nPopulação: %d\nÁrea: %.2fkm²\nPIB: %.2fbilhões de reais\nPontos Turisticos: %d\nDensidade Populacional: %.2f Hab/km2\nPib per Capita: %.2f reais\n\n", estado1, codigo1, cidade1, populacao1, area1, pib1, turismo1, densidade_populacao1, pib_capita1);
+    printf("Estado: %c\nCódigo da Carta: %s\nCidade: %s\nPopulação: %d\nÁrea: %.2fkm²\nPIB: %.2fbilhões de reais\nPontos Turisticos: %d\n\n", estado1, codigo1, cidade1, populacao1, area1, pib1, turismo1);
 
     printf("CARTA 02\n");
-    printf("Estado: %c\nCódigo da Carta: %s\nCidade: %s\nPopulação: %d\nÁrea:  %.2fkm²\nPIB: %.2fbilhões de reais\nPontos Turisticos: %d\nDensidade Populacional: %.2f Hab/km2\nPib per Capita: %.2f reais\n\n", estado2, codigo2, cidade2, populacao2, area2, pib2, turismo2, densidade_populacao2, pib_capita2);
+    printf("Estado: %c\nCódigo da Carta: %s\nCidade: %s\nPopulação: %d\nÁrea:  %.2fkm²\nPIB: %.2fbilhões de reais\nPontos Turisticos: %d\n\n", estado2, codigo2, cidade2, populacao2, area2, pib2, turismo2);
 
 return 0;
 
