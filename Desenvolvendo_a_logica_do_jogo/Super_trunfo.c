@@ -30,8 +30,8 @@ int main() {
     scanf("%s", &codigo1);
     
     //COLETANDO DADOS DA CIDADE1
-    printf("Digite o nome da Cidade que deseja (Sem Espaços): \n");
-    scanf("%s", &cidade1);
+    printf("Digite o nome da Cidade que deseja: \n");
+    scanf(" %50[^\n]", cidade1);
 
     //COLETANDO DADOS DE NUMERO DE HABITANTES1
     printf("Informe o numero de hábitantes da cidade: \n");
@@ -63,8 +63,8 @@ int main() {
     scanf("%s", &codigo2);
     
     //COLETANDO DADOS DA CIDADE2
-    printf("Digite o nome da Cidade que deseja (Sem Espaços): \n");
-    scanf("%s", &cidade2);
+    printf("Digite o nome da Cidade que deseja: \n");
+    scanf(" %50[^\n]", cidade2);
 
     //COLETANDO DADOS DE NUMERO DE HABITANTES2
     printf("Informe o numero de hábitantes da cidade: ");
