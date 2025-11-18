@@ -4,7 +4,7 @@
 int main() {
     // ======== CADASTRO DAS CARTAS =========+
 
-    char pais1[50], pais2[50];
+    char pais1[50], pais2[49];
     int populacao1, populacao2;
     float area1, area2;
     float pib1, pib2;
@@ -133,4 +133,5 @@ int main() {
         printf("\nEmpate!\n");
       
     return 0;
+
 }
