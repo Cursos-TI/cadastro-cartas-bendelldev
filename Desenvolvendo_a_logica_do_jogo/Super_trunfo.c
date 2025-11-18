@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    // ======== CADASTRO DAS CARTAS =========
+    // ======== CADASTRO DAS CARTAS =========+
 
     char pais1[50], pais2[50];
     int populacao1, populacao2;
